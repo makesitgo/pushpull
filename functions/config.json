@@ -2,5 +2,14 @@
     {
         "name": "authenticate",
         "private": false
+    },
+    {
+        "name": "users/whoami",
+        "private": true,
+        "can_evaluate": {
+            "dirty": false,
+            "input": "{}",
+            "error": null
+        }
     }
 ]

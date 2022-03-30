@@ -1,0 +1,8 @@
+{
+    "app_id": "pushpull-hvtjd",
+    "config_version": 20210101,
+    "name": "pushpull",
+    "location": "US-VA",
+    "deployment_model": "GLOBAL",
+    "environment": "development"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "62acc5612a367523ab5fe24d",
+    "name": "userOnLogin",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "LOGIN",
+        "providers": [
+            "local-userpass"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "auth/emailpass/onLogin"
+            }
+        }
+    }
+}

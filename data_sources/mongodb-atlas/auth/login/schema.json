@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "username": {
+            "bsonType": "string"
+        }
+    },
+    "title": "login"
+}

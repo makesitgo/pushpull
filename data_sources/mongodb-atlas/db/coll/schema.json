@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "count": {
+            "bsonType": "long"
+        },
+        "label": {
+            "bsonType": "string"
+        },
+        "time": {
+            "bsonType": "date"
+        },
+        "updated_at": {
+            "bsonType": "date"
+        },
+        "value": {
+            "bsonType": "long"
+        }
+    },
+    "title": "coll"
+}

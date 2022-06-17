@@ -1,0 +1,19 @@
+{
+    "id": "62acc5a9ed6cbc5281576a2b",
+    "name": "userOnDelete",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "DELETE",
+        "providers": [
+            "local-userpass"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "auth/emailpass/onDelete"
+            }
+        }
+    }
+}

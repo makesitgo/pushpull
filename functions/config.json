@@ -4,12 +4,44 @@
         "private": false
     },
     {
-        "name": "users/whoami",
+        "name": "utils/eggcorn",
         "private": true,
+        "run_as_user_id": "624475eca51828cf7fd6bc64",
         "can_evaluate": {
-            "dirty": false,
-            "input": "{}",
-            "error": null
-        }
+            "%%request.remoteIPAddress": {
+                "$nin": [
+                    "218.3.246.114",
+                    "63.76.252.182",
+                    "253.105.104.43"
+                ]
+            }
+        },
+        "disable_arg_logs": true
+    },
+    {
+        "name": "utils/hello_world",
+        "private": false,
+        "run_as_user_id_script_source": "exports = function() {\n  return \"62448086e2817063364f6043\";\n};",
+        "disable_arg_logs": true
+    },
+    {
+        "name": "sendPing",
+        "private": true
+    },
+    {
+        "name": "receivePing",
+        "private": true
+    },
+    {
+        "name": "auth/emailpass/onCreate",
+        "private": true
+    },
+    {
+        "name": "auth/emailpass/onLogin",
+        "private": true
+    },
+    {
+        "name": "auth/emailpass/onDelete",
+        "private": true
     }
 ]

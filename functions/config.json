@@ -1,5 +1,27 @@
 [
     {
+        "name": "utils/hello_world",
+        "private": false,
+        "run_as_user_id_script_source": "exports = function() {\n  return \"62448086e2817063364f6043\";\n};",
+        "disable_arg_logs": true
+    },
+    {
+        "name": "auth/emailpass/onCreate",
+        "private": true
+    },
+    {
+        "name": "auth/emailpass/onDelete",
+        "private": true
+    },
+    {
+        "name": "auth/emailpass/onLogin",
+        "private": true
+    },
+    {
+        "name": "authenticate",
+        "private": false
+    },
+    {
         "name": "receivePing",
         "private": true
     },
@@ -21,27 +43,5 @@
             }
         },
         "disable_arg_logs": true
-    },
-    {
-        "name": "utils/hello_world",
-        "private": false,
-        "run_as_user_id_script_source": "exports = function() {\n  return \"62448086e2817063364f6043\";\n};",
-        "disable_arg_logs": true
-    },
-    {
-        "name": "auth/emailpass/onCreate",
-        "private": true
-    },
-    {
-        "name": "auth/emailpass/onDelete",
-        "private": true
-    },
-    {
-        "name": "auth/emailpass/onLogin",
-        "private": true
-    },
-    {
-        "name": "authenticate",
-        "private": false
     }
 ]

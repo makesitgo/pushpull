@@ -1,7 +1,19 @@
 [
     {
+        "name": "auth/emailpass/onLogin",
+        "private": true
+    },
+    {
         "name": "authenticate",
         "private": false
+    },
+    {
+        "name": "receivePing",
+        "private": true
+    },
+    {
+        "name": "sendPing",
+        "private": true
     },
     {
         "name": "utils/eggcorn",
@@ -25,19 +37,7 @@
         "disable_arg_logs": true
     },
     {
-        "name": "sendPing",
-        "private": true
-    },
-    {
-        "name": "receivePing",
-        "private": true
-    },
-    {
         "name": "auth/emailpass/onCreate",
-        "private": true
-    },
-    {
-        "name": "auth/emailpass/onLogin",
         "private": true
     },
     {

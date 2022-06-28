@@ -1,0 +1,9 @@
+{
+    "name": "complex",
+    "value": {
+      "a": 6,
+      "b": true,
+      "c": "sea"
+    },
+    "from_secret": false
+}

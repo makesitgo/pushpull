@@ -1,0 +1,21 @@
+{
+    "id": "62df0757860f97bf90884085",
+    "name": "auth_bridge",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "DELETE",
+        "providers": [
+            "anon-user"
+        ]
+    },
+    "disabled": true,
+    "event_processors": {
+        "AWS_EVENTBRIDGE": {
+            "config": {
+                "account_id": "eggcorn",
+                "extended_json_enabled": false,
+                "region": "us-east-1"
+            }
+        }
+    }
+}

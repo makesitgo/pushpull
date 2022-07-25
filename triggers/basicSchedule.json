@@ -1,0 +1,17 @@
+{
+    "id": "62df0d7e0aeb5bd9720488ca",
+    "name": "basicSchedule",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 0 * * 3",
+        "skip_catchup_events": true
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "triggers/basic"
+            }
+        }
+    }
+}

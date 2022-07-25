@@ -1,11 +1,11 @@
 [
     {
-        "name": "receivePing",
+        "name": "auth/emailpass/onLogin",
         "private": true
     },
     {
-        "name": "sendPing",
-        "private": true
+        "name": "authenticate",
+        "private": false
     },
     {
         "name": "utils/eggcorn",
@@ -29,23 +29,27 @@
         "disable_arg_logs": true
     },
     {
-        "name": "auth/emailpass/onCreate",
-        "private": true
-    },
-    {
         "name": "auth/emailpass/onDelete",
         "private": true
     },
     {
-        "name": "auth/emailpass/onLogin",
+        "name": "onTriggerFailure",
+        "private": false
+    },
+    {
+        "name": "sendPing",
         "private": true
     },
     {
-        "name": "authenticate",
-        "private": false
+        "name": "auth/emailpass/onCreate",
+        "private": true
     },
     {
-        "name": "onTriggerFailure",
-        "private": false
+        "name": "receivePing",
+        "private": true
+    },
+    {
+        "name": "triggers/basic",
+        "private": true
     }
 ]

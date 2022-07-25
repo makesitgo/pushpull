@@ -1,5 +1,5 @@
 {
-    "id": "62df0757860f97bf90884085",
+    "id": "62df088e6baec7474e438b8c",
     "name": "auth_bridge",
     "type": "AUTHENTICATION",
     "config": {
@@ -12,7 +12,7 @@
     "event_processors": {
         "AWS_EVENTBRIDGE": {
             "config": {
-                "account_id": "eggcorn",
+                "account_id": "012345678910",
                 "extended_json_enabled": false,
                 "region": "us-east-1"
             }

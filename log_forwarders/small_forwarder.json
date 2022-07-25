@@ -1,0 +1,17 @@
+{
+    "name": "small_forwarder",
+    "log_types": [
+        "trigger"
+    ],
+    "log_statuses": [
+        "error"
+    ],
+    "policy": {
+        "type": "single"
+    },
+    "action": {
+        "type": "function",
+        "name": "onTriggerFailure"
+    },
+    "disabled": false
+}

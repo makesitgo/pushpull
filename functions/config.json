@@ -1,5 +1,17 @@
 [
     {
+        "name": "auth/emailpass/onDelete",
+        "private": true
+    },
+    {
+        "name": "auth/emailpass/onLogin",
+        "private": true
+    },
+    {
+        "name": "authenticate",
+        "private": false
+    },
+    {
         "name": "receivePing",
         "private": true
     },
@@ -31,17 +43,5 @@
     {
         "name": "auth/emailpass/onCreate",
         "private": true
-    },
-    {
-        "name": "auth/emailpass/onDelete",
-        "private": true
-    },
-    {
-        "name": "auth/emailpass/onLogin",
-        "private": true
-    },
-    {
-        "name": "authenticate",
-        "private": false
     }
 ]

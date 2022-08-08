@@ -9,6 +9,9 @@
         "label": {
             "bsonType": "string"
         },
+        "name": {
+            "bsonType": "string"
+        },
         "time": {
             "bsonType": "date"
         },

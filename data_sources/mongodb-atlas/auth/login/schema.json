@@ -3,6 +3,9 @@
         "_id": {
             "bsonType": "objectId"
         },
+        "name": {
+            "bsonType": "string"
+        },
         "username": {
             "bsonType": "string"
         }

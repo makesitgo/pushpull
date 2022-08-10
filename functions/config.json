@@ -1,12 +1,22 @@
 [
     {
-        "name": "utils/hello_world",
-        "private": false,
-        "run_as_user_id_script_source": "exports = function() {\n  return \"62448086e2817063364f6043\";\n};",
-        "disable_arg_logs": true
+        "name": "authenticate",
+        "private": false
     },
     {
-        "name": "auth/emailpass/onDelete",
+        "name": "onTriggerFailure",
+        "private": false
+    },
+    {
+        "name": "receivePing",
+        "private": true
+    },
+    {
+        "name": "sendPing",
+        "private": true
+    },
+    {
+        "name": "triggers/basic",
         "private": true
     },
     {
@@ -25,15 +35,7 @@
         "disable_arg_logs": true
     },
     {
-        "name": "authenticate",
-        "private": false
-    },
-    {
-        "name": "onTriggerFailure",
-        "private": false
-    },
-    {
-        "name": "auth/emailpass/onCreate",
+        "name": "auth/emailpass/onDelete",
         "private": true
     },
     {
@@ -41,15 +43,21 @@
         "private": true
     },
     {
-        "name": "sendPing",
+        "name": "auth/emailpass/onCreate",
         "private": true
     },
     {
-        "name": "receivePing",
-        "private": true
+        "name": "utils/hello_world",
+        "private": false,
+        "run_as_user_id_script_source": "exports = function() {\n  return \"62448086e2817063364f6043\";\n};",
+        "disable_arg_logs": true
     },
     {
-        "name": "triggers/basic",
-        "private": true
+        "name": "myCustomResolver",
+        "private": false
+    },
+    {
+        "name": "anotherCustomResolver",
+        "private": false
     }
 ]

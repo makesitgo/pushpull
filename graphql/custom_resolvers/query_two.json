@@ -1,0 +1,8 @@
+{
+    "field_name": "two",
+    "function_name": "anotherCustomResolver",
+    "input_type_format": "",
+    "on_type": "Query",
+    "payload_type": "string",
+    "payload_type_format": "scalar"
+}
